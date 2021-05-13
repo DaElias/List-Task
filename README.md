@@ -5,6 +5,16 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
+###debes instalar:
+#Styled-componente
+# with npm
+npm install --save styled-components
+# with yarn
+yarn add styled-components
+#fortawesome
+npm i --save @fortawesome/fontawesome-svg-core
+  npm install --save @fortawesome/free-solid-svg-icons
+  npm install --save @fortawesome/react-fontawesome
 
 ### `npm start`
 
