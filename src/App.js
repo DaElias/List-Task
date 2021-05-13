@@ -1,9 +1,12 @@
 import './App.css';
+import Header from './componentes/header';
+import FormularioTareas from './componentes/FormularioTareas';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-
+    <div className="contenedor">
+      <Header />
+      <FormularioTareas />
     </div>
   );
 }
