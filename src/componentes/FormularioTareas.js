@@ -16,15 +16,20 @@ const FormularioTareas = ({ tareas, cambiarTareas }) => {
     const handeleSubmit = (e) => {
         // * no se refresca la pagina...
         e.preventDefault();
+        
+        if (!(inputTarea == "")){
+            cambiarTareas([
+                ...tareas,
+                {
+                    id: uuidv4(),
+                    texto: inputTarea,
+                    completada: false,
+                },
+            ]);
+        }
+        
 
-        cambiarTareas([
-            ...tareas,
-            {
-                id: uuidv4(),
-                texto: inputTarea,
-                completada: false,
-            },
-        ]);
+
     };
 
     return (
