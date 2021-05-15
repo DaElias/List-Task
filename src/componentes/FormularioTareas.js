@@ -17,7 +17,7 @@ const FormularioTareas = ({ tareas, cambiarTareas }) => {
         // * no se refresca la pagina...
         e.preventDefault();
         
-        if (!(inputTarea == "")){
+        if (!(inputTarea === "")){
             cambiarTareas([
                 ...tareas,
                 {
