@@ -9,13 +9,16 @@ const App = () => {
 
   const [tareas, cambiarTareas] = useState(
     [
-      /*
       {
         id:1,
-        text: 'Lavar',
+        texto: 'Lavar',
         completada:false
+      },
+      {
+        id:2,
+        texto: 'dormir',
+        completada:true
       }
-       */
     ]);
 
 
@@ -25,7 +28,7 @@ const App = () => {
     <div className="contenedor">
       <Header />
       <FormularioTareas tareas={tareas} cambiarTareas={cambiarTareas} />
-      <ListaTareas tareas={tareas} />
+      <ListaTareas tareas={tareas} cambiarTareas={cambiarTareas} />
     </div>
   );
 }

@@ -5,10 +5,6 @@ import { v4 as uuidv4 } from 'uuid';
 
 const FormularioTareas = ({ tareas, cambiarTareas }) => {
     const [inputTarea, cambiarImputTareas] = useState('');
-
-
-
-
     const handelInput = (e) => {
         cambiarImputTareas(e.target.value);
     };
