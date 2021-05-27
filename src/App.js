@@ -5,7 +5,6 @@ import FormularioTareas from './componentes/FormularioTareas';
 import ListaTareas from './componentes/ListaTarea';
 
 
-console.log("Hi word xDDDDDDDDDDDDDDDDDDDDD!!!!!!!!!")
 
 
 const App = () => {
