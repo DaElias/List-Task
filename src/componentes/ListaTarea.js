@@ -18,8 +18,8 @@ const ListaTareas = ({ tareas, cambiarTareas }) => {
             { tareas.length > 0
                 ? tareas.map((tareas) => {
                     return <Tarea
-                        tareas={tareas}
-                        toggleCompletada={toggleCompletada}
+                            tareas={tareas}
+                            toggleCompletada={toggleCompletada}
                     />
                 })
                 :
