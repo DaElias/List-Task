@@ -12,8 +12,8 @@ const FormularioTareas = ({ tareas, cambiarTareas }) => {
     const handeleSubmit = (e) => {
         // * no se refresca la pagina...
         e.preventDefault();
-        
-        if (!(inputTarea === "")){
+
+        if (inputTarea !== "") {
             cambiarTareas([
                 ...tareas,
                 {
@@ -23,8 +23,7 @@ const FormularioTareas = ({ tareas, cambiarTareas }) => {
                 },
             ]);
         }
-        
-
+        cambiarImputTareas("");
 
     };
 

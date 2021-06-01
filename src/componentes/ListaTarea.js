@@ -51,7 +51,6 @@ const ListaTareas = ({ tareas, cambiarTareas, mostrarTareasCompletadas }) => {
                             borrarTarea={borrarTarea}
                         />
                     }// * si ya esta completada no la devolvemos
-                    return;
                 })
                 :
                 <div className='lista-tareas__tarea'>

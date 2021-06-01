@@ -13,6 +13,7 @@ const Tareas = ({ tareas, toggleCompletada, editarTarea,borrarTarea }) => {
         editarTarea(tareas.id, nuevaTarea);
         editarTareasCambiar(false);
     }
+    
     return (
         <li
             className="lista-tareas__tarea"
